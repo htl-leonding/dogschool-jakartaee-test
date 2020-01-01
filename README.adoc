@@ -40,7 +40,7 @@ include::src/test/java/at/htl/dogschool/control/DbTest.java[tag=table-names]
 ----
 ////
 
-Use the comments to between tableNames for DBTest and RestTest
+Use the comments to switch between tableNames for DBTest and RestTest
 
 == Configuring IntelliJ for Running All Tests
 
