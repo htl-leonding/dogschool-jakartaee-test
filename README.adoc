@@ -1,0 +1,5 @@
+= dogschool-jakartaee-test
+
+== Configuring IntelliJ for Running All Tests
+
+image::images/run-all-tests-configuration.png[]
