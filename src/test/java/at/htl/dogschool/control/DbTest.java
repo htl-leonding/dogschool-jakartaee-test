@@ -17,6 +17,7 @@ public class DbTest {
     private static final String USERNAME = "app";
     private static final String PASSWORD = "app";
 
+    // tag::table-names[]
     public static final String bookingTable = "BOOKING";
     public static final String courseTable = "COURSE";
     public static final String coursetypeTable = "COURSETYPE";
@@ -28,6 +29,7 @@ public class DbTest {
 //    public static final String coursetypeTable = "S_COURSE_TYPE";
 //    public static final String dogTable = "S_DOG";
 //    public static final String personTable = "S_PERSON";
+    // end::table-names[]
 
     private static Source source;
 
