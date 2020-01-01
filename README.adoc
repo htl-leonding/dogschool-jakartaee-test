@@ -18,8 +18,27 @@ image::images/folder-structure.png[]
 [source,java]
 .DbTest.java
 ----
+    public static final String bookingTable = "BOOKING";
+    public static final String courseTable = "COURSE";
+    public static final String coursetypeTable = "COURSETYPE";
+    public static final String dogTable = "DOG";
+    public static final String personTable = "PERSON";
+
+//    public static final String bookingTable = "S_BOOKING";
+//    public static final String courseTable = "S_COURSE";
+//    public static final String coursetypeTable = "S_COURSE_TYPE";
+//    public static final String dogTable = "S_DOG";
+//    public static final String personTable = "S_PERSON";
+----
+
+
+////
+[source,java]
+.DbTest.java
+----
 include::src/test/java/at/htl/dogschool/control/DbTest.java[tag=table-names]
 ----
+////
 
 Use the comments to between tableNames for DBTest and RestTest
 
